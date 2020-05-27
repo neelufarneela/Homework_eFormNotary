@@ -1,0 +1,398 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header starts*/
+header{}
+.container{
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.top_header{
+	background-color: #535D69;
+	overflow: hidden;
+}
+.welcome{
+	float: left;
+}
+.welcome p{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #fff;
+	margin-top: 12px;
+}
+.socials{
+	float: right;
+}
+.socials ul{
+	display: inline-block;
+}
+.socials ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+.socials ul li a{
+	color: #fff;
+	padding: 0 16px;
+	transition-duration: 0.5s;
+}
+.socials ul li a:hover{
+	color: #BD233F;
+}
+.socials button{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #BD233F;
+	border: none;
+	color: #fff;
+	padding: 14px 30px;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.socials button:hover{
+	color: #BD233F;
+	background-color: #fff;
+}
+.navbar{
+	overflow: hidden;
+	background-color: #fff;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+	margin: 6px 0;
+}
+.menu{
+	width: 70%;
+	float: right;
+	margin-top: 28px;
+}
+.menu ul{}
+.menu ul li{
+	display: inline-block;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #535D69;
+	text-decoration: none;
+	padding-left: 18px;
+	transition-duration: 0.5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #BD233F;
+}
+/*header ends*/
+/*banner starts*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 120px 0;
+}
+.con_2{}
+.banner h1{
+	font-family: sans-serif;
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #fff;
+	line-height: 38px;
+	margin-bottom: 24px;
+	padding-right: 660px;	
+}
+.banner p{
+	font-family: sans-serif;
+	font-size: 15px;
+	color: #fff;
+	margin-top: 10px;
+	padding-right: 440px;
+}
+.banner button{
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #BD233F;
+	border: none;
+	border-radius: 5px;
+	margin-top: 40px;
+	padding: 14px 22px;	
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+.banner button:hover{
+	background-color: #fff;
+	color: #BD233F;
+}
+/*banner ends*/
+/*work starts*/
+.work{
+	overflow: hidden;
+	text-align: center;
+	margin: 40px 0;
+}
+.work h2{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+.work p{
+	color: #535D69;
+	margin-bottom: 50px;
+	padding: 0 105px;
+}
+.circle{
+	width: 33%;
+	float: left;
+	transition-duration: 0.5s;
+}
+.circle:hover{
+	background-color: #EFEFEFB5;
+}
+.circle img{
+}
+.circle p{
+	color: black;
+	padding: 16px 35px;
+}
+/*work ends*/
+/*process starts*/
+.process{
+	background-color: #EFEFEFB5;
+	padding: 50px 0;
+}
+.side_l{
+	width: 50%;
+	float: left;
+	margin-top: 35px;
+}
+.side_l h3{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin: 18px 0;
+	padding-right: 70px;
+	line-height: 30px;
+}
+.side_l p{
+	color: #535D69;
+	margin-bottom: 35px;
+	padding-right: 138px;
+}
+.side_l button{
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #BD233F;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+.side_l button:hover{
+	color: #BD233F;
+	background-color: #fff;	
+}
+.side_r{
+	width: 50%;
+	float: right;
+}
+.side_r img{
+	width: 100%;
+}
+/*process ends*/
+/*feature starts*/
+.feature{
+	margin: 40px 0;
+}
+.f_title{
+	text-align: center;
+}
+.f_title h2{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+.f_title p{
+	color: #535D69;
+	margin-bottom: 50px;
+	padding: 0 105px;
+}
+.f_items{
+	text-align: center;
+}
+.container2{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.box{
+	width: 30%;
+	float: left;
+	box-shadow: 0 6px 10px 4px #8883;
+	margin: 18px 13px;
+}
+.box img{
+	width: 25%;
+	margin: 24px 0;
+}
+.box h4{
+	font-family: sans-serif;
+	text-transform: capitalize;
+	margin-bottom: 16px;
+}
+.box p{
+	color: #535D69;
+	padding: 0 38px 30px;
+}
+.f_button{
+	text-align: center;
+	margin: 50px 0;
+}
+.f_button button{
+	text-transform: uppercase;
+	color: #BD233F;
+	background-color: #fff;
+	padding: 12px 16px;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px #8883;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+.f_button button:hover{
+	color: #fff;
+	background-color: #BD233F;
+}
+/*feature ends*/
+
+/*contact starts*/
+.contact{
+	background-color: black;
+	padding: 55px 0;
+}
+.box1{
+	float: left;
+	width: 35%;
+}
+.box1 h3{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #BD233F;
+	margin-bottom: 16px;
+}
+.box1 address{
+	color: #535D69;
+	line-height: 28px;
+	margin-bottom: 16px;
+}
+.box1 address i{
+	margin-right: 10px;
+	color: #BD233F;
+}
+.box1 ul{}
+.box1 ul li{
+	display: inline-block;
+}
+.box1 ul li a{
+	color: #535D69;
+	padding: 7px;
+	font-size: 30px;
+	transition-duration: 0.5s;
+}
+.box1 ul li a:hover{
+	color: #BD233F;
+}
+.box2{
+	float: left;
+	width: 30%;
+}
+.box2 h3{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #BD233F;
+	margin-bottom: 22px;
+}
+.box2 ul{}
+.box2 ul li{
+	list-style-position: inside;
+	list-style-type: disclosure-closed;
+	color: #535D69;
+}
+.box2 ul li a{
+	font-family: sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	color: #535D69;
+	line-height: 22px;
+	transition-duration: 0.5s;
+}
+.box2 ul li a:hover{
+	color: #BD233F;
+}
+.box3{
+	float: left;
+	width: 35%;
+}
+.box3 h3{
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #BD233F;
+	margin-bottom: 22px;
+}
+.box3 p{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #535D69;
+	padding-right: 26px;
+	margin-bottom: 28px;
+}
+.box3 form{
+
+}
+.box3 input{
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: black;
+	border-color: #535D69;
+	border-radius: 5px;
+	padding: 6px 10px;
+	color: #535D69;
+	width: 40%;
+}
+.box3 button{
+	font-family: sans-serif;
+	background-color: #BD233F;
+	border: none;
+	border-radius: 3px;
+	padding: 8px 20px;
+	color: #fff;
+	margin-left: -10px;
+	cursor: pointer;
+}
+
+/*contacts ends*/
+
+/*footer starts*/
+footer{
+	background-color: #535D69;
+	padding: 22px 0;
+}
+footer p{
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+/*footer ends*/
